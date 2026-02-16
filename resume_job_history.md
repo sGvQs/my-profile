@@ -7,9 +7,8 @@
 | **氏名** | 四宮 奨 |
 | **生年月日** | 1997年11月11日 |
 | **Email** | susum.earth@gmail.com |
-| **GitHub** | https://github.com/sGvQs |
-| **ポートフォリオ1** | https://our-wallet-log-demo.vercel.app/ |
-| **ポートフォリオ2** | https://online-game-theta.vercel.app/ |
+| **GitHub** | [https://github.com/sGvQs](https://github.com/sGvQs) |
+| **ポートフォリオ** |  [同棲用家計簿アプリ](https://our-wallet-log-demo.vercel.app/) / [アイスブレイクゲーム](https://online-game-theta.vercel.app/) |
 | **希望職種** | バックエンドエンジニア / フルスタックエンジニア |
 
 ---
@@ -72,7 +71,9 @@
 - **フルスタック開発**: フロントエンド・バックエンド問わず一気通貫で開発を担当。
 - **チーム連携**: バックエンドの実装方針やテーブル設計については、チームメンバーと相談しながら進めることで品質を担保しました。
 
-### 株式会社XCUBE | SESエンジニア
+---
+
+###  株式会社XCUBE | SESエンジニア
 ##### **期間**: 2024年1月 ~ 現在
 ##### **業務内容**: SES企業にて以下のプロジェクトに従事しました。
 

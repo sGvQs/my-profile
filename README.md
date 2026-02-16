@@ -91,6 +91,9 @@ HTMLが作成できたら、ブラウザで開いて印刷機能（Cmd+P）か�
 # pandocのインストール
 brew install pandoc
 
-# HTML変換
-pandoc resume_template.md -o resume.html --embed-resources --standalone -c resume_print.css --metadata title="職務経歴書"
+# HTML変換（履歴書）
+pandoc resume.md -o resume.html --embed-resources --standalone -c resume_print.css
+
+# HTML変換（職務経歴書）
+pandoc resume_job_history.md -o resume_job_history.html --embed-resources --standalone -c resume_print.css 
 ```

@@ -40,7 +40,7 @@ body {
     margin: 0;
     padding: 15mm;
   }
-  
+
   @page {
     size: A4;
     margin: 15mm;
@@ -145,12 +145,13 @@ h2:has(+ h3:first-of-type) {
 }
 
 /* 技術スタックのサブ見出し */
-body > h3:nth-of-type(1),
-body > h3:nth-of-type(2),
-body > h3:nth-of-type(3),
-body > h3:nth-of-type(4),
-body > h3:nth-of-type(5),
-body > h3:nth-of-type(6) {
+body>h3:nth-of-type(1),
+body>h3:nth-of-type(2),
+body>h3:nth-of-type(3),
+body>h3:nth-of-type(4),
+body>h3:nth-of-type(5),
+body>h3:nth-of-type(6),
+body>h3:nth-of-type(7) {
   font-size: 11pt;
   font-weight: 600;
   color: var(--secondary-color);
@@ -178,8 +179,8 @@ code {
 }
 
 /* 技術スタック全体のコンテナ風スタイリング */
-h2 + h3 + p,
-h3 + p {
+h2+h3+p,
+h3+p {
   line-height: 2.2;
   margin-bottom: 14px;
 }
@@ -188,7 +189,7 @@ h3 + p {
    5. 職務経歴セクション
    ======================================== */
 /* 会社名・職種 */
-h2 + h3 {
+h2+h3 {
   font-size: 12pt;
   font-weight: 700;
   color: var(--primary-color);
@@ -197,7 +198,7 @@ h2 + h3 {
 }
 
 /* プロジェクト名・詳細 */
-h4 + p {
+h4+p {
   margin-left: 0;
   color: var(--text-light);
   font-size: 9pt;
@@ -227,20 +228,22 @@ li strong {
     page-break-after: avoid;
     page-break-inside: avoid;
   }
-  
-  h3, h4 {
+
+  h3,
+  h4 {
     page-break-after: avoid;
   }
-  
-  h3 + p,
-  h4 + p {
+
+  h3+p,
+  h4+p {
     page-break-before: avoid;
   }
-  
-  ul, table {
+
+  ul,
+  table {
     page-break-inside: avoid;
   }
-  
+
   /* 職務経歴の各プロジェクトは可能な限り同じページに */
   h4 {
     page-break-before: auto;
@@ -266,7 +269,7 @@ a:hover {
     color: var(--text-color);
     border-bottom: none;
   }
-  
+
   /* 印刷時にURLを表示 */
   a[href^="http"]::after {
     content: " (" attr(href) ")";
@@ -279,21 +282,21 @@ a:hover {
    8. 微調整・その他
    ======================================== */
 /* コンパクトな段落間隔 */
-p + p {
+p+p {
   margin-top: 6px;
 }
 
 /* 成果・実績のリスト */
-h4:contains("成果・実績") + ul,
-h4:contains("担当業務") + ul,
-h4:contains("技術的課題") + ul {
+h4:contains("成果・実績")+ul,
+h4:contains("担当業務")+ul,
+h4:contains("技術的課題")+ul {
   margin-left: 0;
   list-style: none;
 }
 
-h4:contains("成果・実績") + ul li::before,
-h4:contains("担当業務") + ul li::before,
-h4:contains("技術的課題") + ul li::before {
+h4:contains("成果・実績")+ul li::before,
+h4:contains("担当業務")+ul li::before,
+h4:contains("技術的課題")+ul li::before {
   content: "▸ ";
   color: var(--primary-color);
   font-weight: bold;

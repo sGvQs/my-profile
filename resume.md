@@ -12,7 +12,7 @@
 | **生年月日** | 1997年11月11日 (満28歳) |
 | **メールアドレス** | susum.earth@gmail.com |
 | **Github** | [https://github.com/sGvQs](https://github.com/sGvQs) |
-| **ポートフォリオ** | [家計簿アプリ](https://our-wallet-log-demo.vercel.app/) / [アイスブレイクゲーム](https://online-game-theta.vercel.app/) |
+| **ポートフォリオ** | [同棲用家計簿アプリ](https://our-wallet-log-demo.vercel.app/) / [アイスブレイクゲーム](https://online-game-theta.vercel.app/) |
 
 ## 学歴
 
